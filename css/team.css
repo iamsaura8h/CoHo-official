@@ -1,8 +1,8 @@
-/* body {
+body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #f0f0f0;
-    padding: 20px;
-} */
+    background-color: #f3eded;
+    /* padding: 20px; */
+}
 
 
 .team-members {
@@ -59,15 +59,17 @@
 }
 
 .team-card img {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     border-radius: 8px;
     object-fit: cover;
     margin-right: 10px;
+    margin-bottom: 2px;
 }
 
 .team-card .details {
     flex-grow: 1;
+    padding: 0;
     /* margin-left: 20px; */
 }
 
