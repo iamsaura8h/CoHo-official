@@ -1,23 +1,32 @@
-body {
+/* body {
     font-family: 'Open Sans', sans-serif;
-}
+    background-color: #f0f0f0;
+    padding: 20px;
+} */
+
 
 .team-members {
-    background-color: aqua;
+    background-color: #fff;
     padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
 }
 
 .team-members h2 {
-    margin-left: 20px;
+    /* background-color: aqua; */
+    text-align: center;
+    /* margin-left: 10px; */
     font-family: 'League Spartan Medium 500', sans-serif;
+    font-size:70px;
+    margin-top: 5px;
 }
 
 .domain {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .domain h3 {
-    margin-left: 20px;
+    margin-left: 10px;
     font-family: 'League Spartan Medium 500', sans-serif;
 }
 
@@ -26,46 +35,93 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: flex-start;
-    margin-left: 50px;
-    padding: 20px;
+    margin-left: 20px;
 }
 
+.team-containerf{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
 .team-card {
-    flex: 1 1 calc(20% - 40px);
-    max-width: calc(20% - 40px);
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    padding: 6px;
     box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .team-card img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 10px;
 }
 
-.team-card h4 {
-    margin: 10px 0 5px;
-    font-size: 16px;
+.team-card .details {
+    flex-grow: 1;
+    /* margin-left: 20px; */
+}
+
+.team-card .lead {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
 }
 
 .team-card h5 {
-    margin: 0;
-    font-size: 14px;
+    margin: 2px 0;
+    font-size: 16;
+    padding-bottom: -2px;
 }
 
-.lightblue {
-    background-color: lightblue;
+
+
+/* for cheif */
+
+.team-cardd {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.lightgreen {
-    background-color: lightgreen;
+.team-cardd img {
+    height: 140px;
+    width: 140px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 10px;
 }
 
-.lightcoral {
-    background-color: lightcoral;
+#foremost{
+    font-family:  'DM Sans', sans-serif;
+    font-weight: 700;
+    color: #81B29A;
+    font-size: 40px;
 }
 
-/* Repeat similar classes for other domain colors */
+.team-cardd .details {
+    flex-grow: 1;
+    /* margin-left: 20px; */
+}
+
+.team-cardd h5 {
+    margin: 2px 0;
+    font-size: 16;
+    padding-bottom: -2px;
+}
+
