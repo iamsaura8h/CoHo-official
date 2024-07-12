@@ -89,6 +89,13 @@ body {
 
 /* for cheif */
 
+.team-containerf {
+    display: flex;
+    gap: 40px;
+    font-family: 'DM Sans', sans-serif;
+    flex-wrap: wrap; /* Allow items to wrap in case there's not enough space */
+}
+
 .team-cardd {
     display: flex;
     align-items: center;
@@ -109,21 +116,32 @@ body {
     margin-right: 10px;
 }
 
-#foremost{
-    font-family:  'DM Sans', sans-serif;
+#foremost {
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     color: #81B29A;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .team-cardd .details {
     flex-grow: 1;
-    /* margin-left: 20px; */
 }
 
 .team-cardd h5 {
     margin: 2px 0;
-    font-size: 16;
-    padding-bottom: -2px;
+    font-size: 16px;
 }
+
+@media (max-width: 768px) {
+    .team-containerf {
+        flex-direction: column;
+        overflow-x: auto;
+    }
+
+    .team-cardd {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
 
